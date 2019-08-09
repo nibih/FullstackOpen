@@ -1,0 +1,5 @@
+browser->server: HTTP post https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over server:
+new note added to json
+end note
+server-->browser: Status 201 created {message: note created}
